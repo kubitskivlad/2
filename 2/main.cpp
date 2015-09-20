@@ -7,9 +7,51 @@
 //
 
 #include <iostream>
+#include <stdio.h>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+
+int main()
+{
+    int n,i,q;
+    cout<<"vvedite chislo ";
+    cin>>n;
+    
+   
+    int m = n;
+    for ( i=1; m>10; i++)
+    {
+        m = m / 10;
+    }
+    int a[i];
+    m = n;
+    for (int p=1; p<=i; p++)
+    {
+        a[p] = m % 10;
+        m = m / 10;
+    }
+       for (int j=1; j<=i; j++)
+        {
+            for (int b=j+1; b<=i; b++)
+            {
+               if (a[j] == a[b])
+               {
+                   q++;
+               }
+            }
+        }
+    
+    cout<<"   "<<i-q<<endl;
+    
+    
+    
+    
+    
+    
+    
+//    for (int p=1; p<=i; p++)
+//    {
+//        cout<<p<<" - "<<  a[p]<<endl;
+//        
+//    }
 }
