@@ -13,6 +13,7 @@ using namespace std;
 
 int main()
 {
+    ///rewwerfwerf
     int n,i,q;
     cout<<"vvedite chislo ";
     cin>>n;
