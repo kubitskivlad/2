@@ -24,7 +24,9 @@ int main()
         m = m / 10;
     }
     int a[i];
+    //sdfasdfafsdfdas
     m = n;
+    //sadfsfd
     for (int p=1; p<=i; p++)
     {
         a[p] = m % 10;
